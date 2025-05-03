@@ -1,1 +1,0 @@
-import "./js/make-cars.js";
