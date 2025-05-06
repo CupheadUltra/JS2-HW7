@@ -1,22 +1,28 @@
 {
-  "name": "JS2-HW7",
+  "name": "js2-hw7",
   "version": "1.0.0",
-  "description": "",
+  "description": "parcel test",
   "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "npx parcel src/index.html",
-    "build": "parcel build src/index.html --public-url ./",
+    "build": "parcel build src/index.html",
     "deploy": "gh-pages -d dist",
     "predeploy": "npm run build"
   },
-  "keywords": [],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CupheadUltra/JS2-HW7.git"
+  },
   "author": "",
   "license": "ISC",
-  "homepage": "https://cupheadultra.github.io/JS2-HW7/",
+  "bugs": {
+    "url": "https://github.com/CupheadUltra/JS2-HW7/issues"
+  },
+  "homepage": "https://github.com/CupheadUltra/JS2-HW7#readme",
+  "devDependencies": {
+    "parcel": "^2.14.4"
+  },
   "dependencies": {
-    "gh-pages": "^6.2.0",
-    "handlebars": "^4.7.8",
-    "parcel": "^2.13.3",
-    "parcel-plugin-handlebars-precompile": "^1.0.2",
-    "parcel-transformer-hbs": "^1.0.4"
+    "gh-pages": "^6.3.0"
   }
 }
