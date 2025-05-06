@@ -1,7 +1,7 @@
 {
-  "name": "js2-hw7",
+  "name": "JS2-HW7",
   "version": "1.0.0",
-  "description": "parcel test",
+  "description": "",
   "homepage": "https://cupheadultra.github.io/JS2-HW7/",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -10,15 +10,9 @@
     "deploy": "gh-pages -d dist",
     "predeploy": "npm run build"
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/CupheadUltra/JS2-HW7.git"
-  },
+  "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/CupheadUltra/JS2-HW7/issues"
-  },
   "devDependencies": {
     "parcel": "^2.14.4"
   },
