@@ -2,6 +2,7 @@
   "name": "js2-hw7",
   "version": "1.0.0",
   "description": "parcel test",
+  "homepage": "https://cupheadultra.github.io/JS2-HW7/",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "npx parcel src/index.html",
@@ -18,7 +19,6 @@
   "bugs": {
     "url": "https://github.com/CupheadUltra/JS2-HW7/issues"
   },
-  "homepage": "https://github.com/CupheadUltra/JS2-HW7#readme",
   "devDependencies": {
     "parcel": "^2.14.4"
   },
