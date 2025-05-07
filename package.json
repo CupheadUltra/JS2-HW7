@@ -1,10 +1,13 @@
 {
   "name": "js2-hw7",
   "version": "1.0.0",
+  "homepage": "https://cupheadultra.github.io/JS2-HW7/",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "npx parcel src/index.html",
-    "build": "parcel build src/index.html"
+    "build": "parcel build src/index.html",
+    "deploy": "gh-pages -d dist",
+    "predeploy": "npm run build"
   },
   "repository": {
     "type": "git",
