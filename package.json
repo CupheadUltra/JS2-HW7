@@ -19,7 +19,6 @@
   "bugs": {
     "url": "https://github.com/CupheadUltra/JS2-HW7/issues"
   },
-  "homepage": "https://github.com/CupheadUltra/JS2-HW7#readme",
   "description": "",
   "devDependencies": {
     "parcel": "^2.14.4"
